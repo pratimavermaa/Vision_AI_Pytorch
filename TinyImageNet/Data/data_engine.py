@@ -2,7 +2,7 @@ import torch
 import torchvision
 
 from .data_transforms import albumentations_transforms, torch_transforms
-from utils import has_cuda, imshow
+from .data_utils import has_cuda, imshow
 
 class DataEngine(object):
 
