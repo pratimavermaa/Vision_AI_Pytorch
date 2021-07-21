@@ -1,0 +1,19 @@
+**Assignment A:**
+1.	Download this  TINY IMAGENET dataset. 
+2.	Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy. 
+3.	Submit Results. Of course, you are using your own package for everything. You can look at  this  for reference. 
+
+**Assignment B:**
+1.	Download this   downloadfile. Learn how COCO object detection dataset's schema is. This file has the same schema. You'll need to discover what those number are. 
+2.	Identify these things for this dataset:
+1.	readme data for class distribution (along with the class names) along with a graph 
+2.	Calculate the Anchor Boxes for k = 3, 4, 5, 6 and draw them.
+3.	Share the calculations for both via a notebook uploaded on your GitHub Repo
+ 
+**Questions in S10-Assignment-Solution:**
+1.	Share the final 4-5 log data showing your validation/test accuracy (don't redirect to any page, you'll get 0).
+2.	Describe the data augmentation strategy that you used in points. Then copy page the augmentation/transformation code here (don't redirect to any page, you'll get 0).
+3.	Share the link to your repo where you are storing your model.py file (cannot be the same as the repo for this assignment submission).
+4.	Share the link to this assignment's repo where we can find the code for TinyImageNet Resnet and the code for calculation of K-means (these can be different if you want).
+5.	Share the link to README for k-means assignment.
+6.	Share the image showing your BBOXes based on your calculations for all the Ks, and describe them. 
